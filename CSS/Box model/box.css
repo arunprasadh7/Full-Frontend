@@ -1,0 +1,17 @@
+body {
+  background-color: #1e605a;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: black;
+  color: white;
+}
+
+.box2 {
+  background-color: orange;
+}
