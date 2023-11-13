@@ -1,0 +1,74 @@
+.el--1 {
+  background-color: blueviolet;
+}
+
+.el--2 {
+  background-color: orangered;
+}
+
+.el--3 {
+  background-color: green;
+  height: 150px;
+}
+
+.el--4 {
+  background-color: goldenrod;
+}
+
+.el--5 {
+  background-color: palevioletred;
+}
+
+.el--6 {
+  background-color: steelblue;
+}
+
+.el--7 {
+  background-color: yellow;
+}
+
+.el--8 {
+  background-color: crimson;
+}
+
+.container--1 {
+  /* Default code */
+  font-family: sans-serif;
+  background-color: #ddd;
+  font-size: 24px;
+  margin: 40px;
+  border: 5px solid black;
+
+  /* CSS Grid */
+  display: grid;
+  grid-template-columns: 200px 300px 100px;
+  grid-template-rows: 100px 100px 300px;
+  /* row-gap: 10px; */
+  /* column-gap: 30px; */
+  gap: 20px;
+  display: none;
+}
+
+.container--2 {
+  /* Default code  */
+
+  /* display: none; */
+  font-family: sans-serif;
+  background-color: black;
+  font-size: 40px;
+  margin: 100px;
+
+  width: 700px;
+  height: 500px;
+  border: 5px solid black;
+
+  /* CSS Grid */
+  display: grid;
+  grid-template-columns: 150px 125px 200px;
+  grid-template-rows: 200px 200px;
+
+  /* Alining tracks inside the container */
+  justify-content: space-around;
+  align-content: center;
+  gap: 20px;
+}
