@@ -1,0 +1,25 @@
+body {
+  background-color: cornflowerblue;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: orangered;
+  }
+
+  .header__subtitle {
+    font-size: 2rem;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: goldenrod;
+  }
+
+  .header__subtitle {
+    text-decoration: underline;
+    font-size: 3rem;
+  }
+}
