@@ -306,7 +306,7 @@ svg {
 }
 
 .home__blob {
-  /* width: 320px; */
+  width: 320px;
   width: 100%;
   fill: var(--first-color);
   filter: drop-shadow(0 12px 12px hsla(var(--hue), 100%, 40%, 0.2));
@@ -333,7 +333,74 @@ svg {
 
 /*=============== ABOUT ===============*/
 
+.about__container {
+  row-gap: 2.5rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__blob {
+  /* width: 100%; */
+  width: 320px;
+}
+.about__img {
+  justify-self: center;
+}
+
+.about__blob path {
+  stroke: var(--first-color);
+}
+
 /*=============== SKILLS ===============*/
+
+.skills {
+  background-color: var(--container-color);
+}
+
+.skills__container {
+  padding-bottom: 2rem;
+  row-gap: 3.5rem;
+  height: 90vh;
+}
+
+.skills__content,
+.skils__group {
+  display: grid;
+}
+
+.skills__data {
+  text-align: center;
+}
+
+.skills__group i {
+  font-size: 2.5rem;
+  /* border: 1px solid white; */
+}
+
+.skills__tech--primary {
+  font-size: var(--h1-font-size);
+  align-items: center;
+}
+
+.front-end {
+  /* border: 2px solid orange; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto);
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 1rem 1rem 1rem 2rem; */
+  margin-top: 1rem;
+}
+
+.skills__item {
+  text-align: center;
+  padding: 8px 16px;
+  /* color: whitesmoke; */
+}
 
 /*=============== SERVICES ===============*/
 
